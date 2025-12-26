@@ -1,9 +1,9 @@
 # CodeBook — Tidy UCI HAR Dataset (averages by subject × activity)
 
-### Purpose 
+## Purpose 
 This code book describes the variables, units, and transformations performed by the provided R script to produce the tidy dataset 'tidy_data.txt' (mean of each selected feature for each activity and each subject).
 
-### Source data and provenance
+## Source data and provenance
 
 Human Activity Recognition Using Smartphones (UCI HAR). 
 
@@ -18,8 +18,11 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The original sensor signals are measured in standard gravity units (g) for acceleration and radians per second (rad/s) for angular velocity; however, features are normalized and bounded within [-1, 1].
 
-###  Final Dataset: tidy_data.txt — tab-delimited
- One row per subject × activity; numeric columns are means of the selected features.
+##  Final Dataset: tidy_data.txt
+
+The data set is tab-delimited.
+
+It contains one row per subject × activity; numeric columns are means of the selected features.
 
 ### Transformations performed
 1. Merge training and test sets, joining activity labels and subject IDs.
